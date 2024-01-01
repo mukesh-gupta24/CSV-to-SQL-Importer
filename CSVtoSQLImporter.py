@@ -30,5 +30,5 @@ for csv_file in csv_files:
     df.to_sql(table_name, engine, index=False, if_exists='append')
     print(f"Table '{table_name}' created in SQL Server.")
 
-# Display a message indicating that all tables have been created
-print("All tables have been created into SQL Server.")
+# Display a message indicating that all tables have been imported
+print("All tables have been imported into SQL Server.")
